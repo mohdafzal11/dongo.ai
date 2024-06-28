@@ -11,7 +11,7 @@ const Video = () => {
           playsInline
           className="object-cover md:w-full md:h-ful h-[100%] w-[100%] rounded-3xl"
         >
-          <source className="" src={video} type="video/mp4" />
+          <source className="" src="https://framerusercontent.com/assets/Yyj9XRC7w6gcoeeRMHzn6MVME.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>

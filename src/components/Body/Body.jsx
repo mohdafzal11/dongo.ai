@@ -1,7 +1,6 @@
 import "../../index.css";
 
 const Body = () => {
- 
   const partners = [
     {
       id: 1,
@@ -51,13 +50,12 @@ const Body = () => {
       imageUrl:
         "https://framerusercontent.com/images/VF19E7rqauCSBmmOcsnqVyj1o.png",
     },
- 
   ];
 
   return (
     <div className="flex justify-center items-center flex-col overflow-x-hidden">
       <div className="flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center items-center text-[#A1AEE5]">
+        <div className="mt-12 md:mt-0 flex flex-col justify-center items-center text-[#A1AEE5]">
           <div className="">
             <a
               className="framer-NRL6k framer-hx7h6 framer-v-hx7h6 framer-1l7pyv8 border rounded-full"
@@ -153,15 +151,15 @@ const Body = () => {
               </div>
             </a>
           </div>
-          <div className="text-white w-[60%] text-center mt-6">
+          <div className="text-white w-[60%] xl:w-[40%] text-center mt-6">
             <h1 className="">
-              <span className="text-6xl">
+              <span className="text-4xl  md:text-6xl">
                 Your Personal Web3 Research Assistant
               </span>
             </h1>
           </div>
-          <div className="my-8 flex justify-center items-center   text-center">
-            <p className="text-2xl w-[60%] ">
+          <div className="my-6 md:my-8 flex justify-center items-center   text-center">
+            <p className="text-lg md:text-2xl w-[60%] ">
               Tailored to deliver in-depth analysis, real-time market forecasts,
               and seamless data integration, Dongo AI elevates your strategic
               decision-making, placing institutional-grade insights within
@@ -169,128 +167,69 @@ const Body = () => {
             </p>
           </div>
         </div>
-        <div>
-          <div>
-            <div className="framer-BRR6I framer-s3zrh7 framer-v-12t67g7 border border-solid border-blue-300 border-opacity-20 rounded-full">
-              <div
-                className="animate-clippath flex-none inset-0 overflow-visible absolute z-1 bg-gradient-to-b from-purple-200 via-transparent to-transparent"
+
+        {/* input box */}
+        <div
+          className="border border-solid border-blue-300 border-opacity-20 rounded-full mt-6 md:mt-0"
+          // style={{
+          //   background:
+          //     "radial-gradient(16.9917% 44.5271% at 69.1958% 19.6376%, rgba(161, 174, 229, 0.4) -1.94167%, rgba(161, 174, 229, 0) 100%)",
+          //   opacity: 1,
+          // }}
+        >
+          <div className="md:flex px-4 py-3">
+            <div className="w-full">
+              <input
+                className="py-2 px-8 md:py-4 md:pl-5"
+                type="email"
+                name="email"
+                placeholder="Coming Soon..."
+                value=""
                 style={{
-                  background:
-                    "radial-gradient(17.2706% 34.885% at 69.1958% 19.6376%, rgba(161, 174, 229, 0.4) 0%, rgba(161, 174, 229, 0) 100%)",
-                  filter: "blur(15px)",
-                  opacity: 1,
+                  appearance: "none",
+                  display: "inline-block",
+                  lineHeight: "1.4em",
+                  outline: "none",
+                  border: "none",
+                  fontFamily:
+                    '"Inter Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+                  fontWeight: 400,
+                  fontSize: "16px",
+                  background: "rgba(9, 11, 26, 0)",
+                  color:
+                    "var(--token-88977580-6438-4b59-a3a8-3f58646c9275, rgb(236, 240, 255))",
+                  boxShadow: "transparent 0px 0px 0px 1px inset",
                 }}
-              ></div>
-              <div
-                className="framer-1gqnd21"
-                data-framer-name="Stroke"
+              />
+            </div>
+            <div className="hidden md:flex">
+              <input
+                type="submit"
+                value="Coming Soon"
                 style={{
-                  background:
-                    "radial-gradient(16.9917% 44.5271% at 69.1958% 19.6376%, rgba(161, 174, 229, 0.4) -1.94167%, rgba(161, 174, 229, 0) 100%)",
-                  opacity: 1,
-                  "border-radius": "60px",
+                  appearance: "none",
+                  display: "inline-block",
+                  width: "100%",
+                  lineHeight: "1.4em",
+                  outline: "none",
+                  border: "none",
+                  "border-radius": "58px",
+                  padding: "15px 25px 16px",
+                  fontFamily:
+                    '"Inter Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+                  fontWeight: 600,
+                  fontSize: "16px",
+                  background: "rgb(7, 90, 150)",
+                  cursor: "pointer",
+                  color: "rgb(189, 189, 189)",
+                  zIndex: 1,
                 }}
-              ></div>
-              <div
-                className="framer-ruhn3e  animate-clippath"
-                style={{
-                  background:
-                    "linear-gradient(92deg, rgb(6, 8, 24) 0%, rgb(9, 14, 54) 100%)",
-                  opacity: 1,
-                  "border-radius": "60px",
-                }}
-              ></div>
-              <div className="framer-1p0scjl-container" style={{ opacity: 1 }}>
-                <div
-                  style={{
-                    height: "100%",
-                    width: "100%",
-                    position: "relative",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    flexDirection: "column",
-                    "--framer-formspark-placeholder-color":
-                      "rgba(161, 174, 229, 0.6)",
-                  }}
-                >
-                  <form
-                    method="POST"
-                    style={{
-                      display: "grid",
-                      gridTemplateRows: "max-content",
-                      gridTemplateColumns: "1fr max-content",
-                      gap: "10px",
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: "100%",
-                        display: "grid",
-                        gridAutoFlow: "column",
-                        gap: "10px",
-                      }}
-                    >
-                      <input
-                        className="framer-formspark-input"
-                        type="email"
-                        name="email"
-                        placeholder="Coming Soon..."
-                        value=""
-                        style={{
-                          appearance: "none",
-                          display: "inline-block",
-                          width: "100%",
-                          lineHeight: "1.4em",
-                          outline: "none",
-                          border: "none",
-                          padding: "15px 25px 16px",
-                          "border-radius": "58px",
-                          fontFamily:
-                            '"Inter Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-                          fontWeight: 400,
-                          fontSize: "16px",
-                          background: "rgba(9, 11, 26, 0)",
-                          color:
-                            "var(--token-88977580-6438-4b59-a3a8-3f58646c9275, rgb(236, 240, 255))",
-                          boxShadow: "transparent 0px 0px 0px 1px inset",
-                        }}
-                      />
-                    </div>
-                    <div>
-                      <input
-                        type="submit"
-                        value="Coming Soon"
-                        style={{
-                          appearance: "none",
-                          display: "inline-block",
-                          width: "100%",
-                          lineHeight: "1.4em",
-                          outline: "none",
-                          border: "none",
-                          "border-radius": "58px",
-                          padding: "15px 25px 16px",
-                          fontFamily:
-                            '"Inter Regular", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-                          fontWeight: 600,
-                          fontSize: "16px",
-                          background: "rgb(7, 90, 150)",
-                          cursor: "pointer",
-                          color: "rgb(189, 189, 189)",
-                          zIndex: 1,
-                        }}
-                      />
-                    </div>
-                  </form>
-                </div>
-              </div>
+              />
             </div>
           </div>
         </div>
 
-        <div className="text-white mx-16 mt-12">
+        <div className="text-white mx-16 mt-16 mb-12">
           <div className="" style={{ opacity: 1 }}>
             <div className="">
               <p className="text-2xl text-white opacity-80 text-center">
@@ -298,11 +237,11 @@ const Body = () => {
               </p>
             </div>
           </div>
-          <div className="w-[90vw] pt-10">
+          <div className="w-[90vw] py-8">
             <section className="flex w-full h-full max-w-full max-h-full items-center m-0 p-0 list-none opacity-100 overflow-hidden">
               <ul className="wrapper">
-                {partners.map((partner , index) => (
-                  <li key={partner.id} className={`item ${"item"+index}`}>
+                {partners.map((partner, index) => (
+                  <li key={partner.id} className={`item ${"item" + index}`}>
                     <div className="">
                       <div>
                         <img

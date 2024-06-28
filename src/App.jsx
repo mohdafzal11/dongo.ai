@@ -5,7 +5,7 @@ import background from '../src/assets/background.png'
 
 
 function App() {
-  return <div className="bg-[#030517] h-screen w-screen">
+  return <div className="bg-[#030517] ">
     <div className="absolute right-0 ">
       <img src={background} alt="" />
     </div>

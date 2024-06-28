@@ -16,7 +16,7 @@ const Video = () => {
         </video>
       </div>
 
-      <div className="my-12 px-6 py-4 border-opacity-20 border-2 border-[rgba(161,174,229,0.2)] bg-gradient-to-b from-[rgb(21,119,189)] to-[rgb(7,90,150)] opacity-100 rounded-full shadow-inner">
+      <div className="my-12 px-6 py-3 border-opacity-20 border-2 border-[rgba(161,174,229,0.2)] bg-gradient-to-b from-[rgb(21,119,189)] to-[rgb(7,90,150)] opacity-100 rounded-full shadow-inner">
         <a
           className=" "
           href="https://app.dongo.ai"

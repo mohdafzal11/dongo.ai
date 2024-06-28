@@ -7,7 +7,7 @@ const Header = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="shadow-md ssr-variant hidden-142h2bu hidden-1pkud1z px-4 md:px-12 bg-opacity-30">
+    <div className="sticky top-0 shadow-md ssr-variant hidden-142h2bu hidden-1pkud1z px-4 md:px-12 bg-opacity-30">
       <div>
         <img src="" alt="" />
       </div>

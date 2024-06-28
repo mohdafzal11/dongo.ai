@@ -151,7 +151,7 @@ const Body = () => {
               </div>
             </a>
           </div>
-          <div className="text-white w-[60%] xl:w-[40%] text-center mt-6">
+          <div className="text-white w-[60%] 2xl:w-[40%] text-center mt-6">
             <h1 className="">
               <span className="text-4xl  md:text-6xl">
                 Your Personal Web3 Research Assistant

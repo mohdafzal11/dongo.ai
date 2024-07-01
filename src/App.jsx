@@ -7,6 +7,8 @@ import Banner from "./Banner/Banner.jsx";
 import Carousel from "./components/Carousel/Carousel.jsx";
 import Tokenomics from "./components/Tokenomics/Tokenomics.jsx";
 import Roadmap from "./components/Roadmap/Roadmap.jsx";
+import Community from "./components/Community/Community.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import "./index.css";
 import background from "../src/assets/background.png";
 
@@ -25,6 +27,8 @@ function App() {
       <Carousel />
       <Tokenomics />
       <Roadmap />
+      <Community />
+      <Footer/>
     </div>
   );
 }

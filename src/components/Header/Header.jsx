@@ -208,7 +208,6 @@ const Header = () => {
                     width: "100%",
                     height: "100%",
                     transition: "transform 0.3s ease",
-                    // transform: isHovered ? "translateY(0)" : "translateY(80%)",
                   }}
                 >
                   <svg

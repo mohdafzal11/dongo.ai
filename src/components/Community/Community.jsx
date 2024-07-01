@@ -30,10 +30,10 @@ const Community = () => {
       </div>
 
       <div className=" grid grid-cols-1 gap-20 lg:grid-cols-2 my-8">
-        <div className="relative flex justify-between border rounded-lg h-48 md:h-60">
-          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60" alt="" />
+        <div className="relative flex justify-between border rounded-lg h-48 md:h-60 lg:h-72 ">
+          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60 lg:h-72 2xl:hidden" alt="" />
 
-          <div className="text-white space-y-3 absolute bottom-5 left-5  lg:m-10 ">
+          <div className="text-white space-y-3 absolute bottom-5 left-5   ">
             <div className="text-base md:text-xl lg:text-2xl">Check Our X</div>
             <p className="text-sm md:text-base lg:text-lg text-[#A1AEE5]">Connect with us on X</p>
           </div>
@@ -50,10 +50,10 @@ const Community = () => {
         </div>
 
 
-        <div className="relative flex justify-between border rounded-lg h-60">
-          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60" alt="" />
+        <div className="relative flex justify-between border rounded-lg  h-48 md:h-60 lg:h-72">
+          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60 lg:h-72 2xl:hidden" alt="" />
 
-          <div className="text-white space-y-3 absolute bottom-5 left-5  lg:m-10 ">
+          <div className="text-white space-y-3 absolute bottom-5 left-5  ">
             <div className="text-base md:text-xl lg:text-2xl">Check Our Telegram</div>
             <p className="text-sm md:text-base lg:text-lg text-[#A1AEE5]">Connect with us on Telegram</p>
           </div>

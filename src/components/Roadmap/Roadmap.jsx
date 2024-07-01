@@ -2,9 +2,9 @@ import roadmap from "../../assets/roadmap.png";
 
 const Roadmap = () => {
   return (
-    <section className="flex justify-between mx-60">
-      <div className=" space-y-4">
-        <div className="bg-[#17192F] flex justify-center items-center py-2 rounded-3xl px-4 space-x-2 w-[80%]">
+    <section className="flex flex-col lg:flex-row justify-between mx-10 md:mx-60">
+      <div className="flex flex-col space-y-4">
+        <div className="bg-[#17192F] flex flex-row justify-center items-center py-2 rounded-3xl px-4 space-x-2 lg:w-[80%]">
           <div className=" text-xl text-[#A1AEE5]">Enhanced Solutions</div>
           <div>
             <svg
@@ -17,16 +17,21 @@ const Roadmap = () => {
             </svg>
           </div>
         </div>
+
         <div className="text-white  text-center ">
           <h1 className="">
-            <span className="text-3xl  md:text-5xl">Our Roadmap</span>
+            <span className=" text-3xl md:text-4xl  lg:text-5xl">Our Roadmap</span>
           </h1>
         </div>
       </div>
-      <div className="w-10">
+
+      
+      <div className="w-10 hidden lg:flex">
         <img src={roadmap} alt="" />
       </div>
-      <div className="flex flex-col space-y-16">
+
+
+      <div className="flex flex-col space-y-16 mt-10 lg:mt-0">
         <div className="">
           <div className="flex flex-col  space-y-1 text-white">
             <h2 className="text-base text-[#07487B]">Phase 1</h2>

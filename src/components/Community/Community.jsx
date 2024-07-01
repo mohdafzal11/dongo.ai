@@ -3,9 +3,9 @@ import buttonBg from "../../assets/buttonBg.png";
 
 const Community = () => {
   return (
-    <section className="z-20 relative mx-10">
+    <section className="z-20 relative mx-16 md:mx-40 lg:mx-10 my-8">
       <div>
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col space-y-4 md:justify-center md:items-center lg:items-start">
           <div className="w-60 bg-[#17192F] flex justify-center items-center py-2 rounded-3xl  space-x-2">
             <div className=" text-xl text-[#A1AEE5]">Enhanced Solutions</div>
             <div>
@@ -20,8 +20,8 @@ const Community = () => {
             </div>
           </div>
           <div className="text-white  ">
-            <h1 className="">
-              <span className="text-3xl  md:text-5xl">
+            <h1 className="text-center lg:text-left">
+              <span className=" text-3xl  md:text-4xl">
                 Join Our Dongo Communinty
               </span>
             </h1>
@@ -29,34 +29,37 @@ const Community = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-20 md:grid-cols-2 my-8">
-        <div className="flex justify-between border rounded-lg">
-          <div className="text-white space-y-3 m-10">
-            <div className="text-2xl">Check Our X</div>
-            <p className="text-lg text-[#A1AEE5]">Connect with us on X</p>
+      <div className=" grid grid-cols-1 gap-20 lg:grid-cols-2 my-8">
+        <div className="relative flex justify-between border rounded-lg h-48 md:h-60">
+          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60" alt="" />
+
+          <div className="text-white space-y-3 absolute bottom-5 left-5  lg:m-10 ">
+            <div className="text-base md:text-xl lg:text-2xl">Check Our X</div>
+            <p className="text-sm md:text-base lg:text-lg text-[#A1AEE5]">Connect with us on X</p>
           </div>
-          <div className="relative">
+          <div className="absolute right-0">
             <svg
               fill="#222341"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              className="h-40 "
+              className=" h-20 md:h-40 "
             >
               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
             </svg>
           </div>
         </div>
 
-        <div className="flex justify-between border rounded-lg">
-          <div className="text-white space-y-3 m-10">
-            <div className="text-2xl">Check Our Telegram</div>
-            <p className="text-lg text-[#A1AEE5]">
-              Connect with us on Telegram
-            </p>
+
+        <div className="relative flex justify-between border rounded-lg h-60">
+          <img src={buttonBg} className="absolute top-0 right-0 h-48 md:h-60" alt="" />
+
+          <div className="text-white space-y-3 absolute bottom-5 left-5  lg:m-10 ">
+            <div className="text-base md:text-xl lg:text-2xl">Check Our Telegram</div>
+            <p className="text-sm md:text-base lg:text-lg text-[#A1AEE5]">Connect with us on Telegram</p>
           </div>
-          <div className="relative  m-1">
-            <svg
-              className="h-40 bg-transparent"
+          <div className="absolute right-0">
+          <svg
+              className="h-20 md:h-40"
               fill="#222341"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 496 512"
@@ -65,6 +68,8 @@ const Community = () => {
             </svg>
           </div>
         </div>
+
+      
       </div>
 
       <div className="flex flex-col space-y-4 mt-24 ">

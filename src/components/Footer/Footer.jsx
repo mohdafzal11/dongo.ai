@@ -3,7 +3,7 @@ import telegram from "../../assets/telegram.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between items-center mx-10 py-8">
+    <footer className="flex justify-between items-center mx-2 md:mx-10 py-8">
       <div className="flex space-x-4 mx-2">
         <div className="border rounded-full p-5">
           <svg
@@ -16,7 +16,7 @@ const Footer = () => {
           </svg>
         </div>
         <div className="border p-4 rounded-full flex  ">
-          <img src={telegram} className="h-7" alt="" />
+          <img src={telegram} className="md:h-7" alt="" />
         </div>
       </div>
       <div className=" text-base text-[#A1AEE5]">
